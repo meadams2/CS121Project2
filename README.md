@@ -1,5 +1,5 @@
 # CS121 Project 2 - Bubbles and Pointers
-
+## Overview and Goals
 This project focuses on exploring the fundamentals of programming in C. In this, we will explore the relationship between arrays and pointers while also practicing reading and understanding psuedocode. We are given the following basic algorithm:
 
 ```
@@ -61,3 +61,24 @@ Order to work in:
 2. swap
 
 3. sort
+
+## printValue Function
+
+The basic objective of the printValue function is to print the values of the array in a single line. This function will be primarily used for debugging purposes. 
+
+From there, we can assume a few key components of the function:
+- A pointer that allows us to determine where in memory each value is. We splat the pointer to get the value at that position. 
+- A for loop that will allow us to step through the array.
+- We want to then print each value on a single line using printf. 
+
+## Swap Function
+
+The basic opjective of the swap function is when given pointers to variables a and b, the function should swap their values so that a contains the starting value of b and b contains the starting value of a. 
+
+Key components of the function:
+- A for loop allowing us to step through the array
+- Pointers to variables a and b
+
+## Sort Function
+
+The basic objective of the sort function is to compare each value and get each value in numerical order. 
