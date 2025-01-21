@@ -71,6 +71,17 @@ From there, we can assume a few key components of the function:
 - A for loop that will allow us to step through the array.
 - We want to then print each value on a single line using printf. 
 
+### Pseudocode
+
+```
+
+Start for loop to iterate between each item in values:
+	Print value of item at the pointer
+	Print address of item
+	Iterate through pointers in values
+
+```
+
 ## Swap Function
 
 The basic opjective of the swap function is when given pointers to variables a and b, the function should swap their values so that a contains the starting value of b and b contains the starting value of a. 
@@ -78,6 +89,9 @@ The basic opjective of the swap function is when given pointers to variables a a
 Key components of the function:
 - A for loop allowing us to step through the array
 - Pointers to variables a and b
+
+### Pseudocode
+
 
 ## Sort Function
 
