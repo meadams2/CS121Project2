@@ -1,9 +1,9 @@
 #include <stdio.h>
-const int MAX=9
+const int MAX=9;
 
 void printValues(int*);
-void sort(int*);
-void swap(int*, int*);
+//void sort(int*);
+//void swap(int*, int*);
 
 int main(){
 	int values[] = {7, 3, 9, 4, 6, 1, 2, 8, 5};
@@ -24,10 +24,10 @@ int main(){
 	return(0);
 } // end main
 
-int printValues(int*){
+void printValues(int* array[]){
+	int i = 0;
 	for (i = 0; i < MAX; i++){
-		printf("%d", i, values[i]);
-		return(0);
+		printf("%d", i,*array[i]);
 	}// end for loop
 }// end printValues
 
