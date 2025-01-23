@@ -87,11 +87,17 @@ Start for loop to iterate between each item in values:
 The basic opjective of the swap function is when given pointers to variables a and b, the function should swap their values so that a contains the starting value of b and b contains the starting value of a. 
 
 Key components of the function:
-- A for loop allowing us to step through the array
 - Pointers to variables a and b
+- A temporary variable because if not, when you go to swap, a-->b, but b-->b. 
 
 ### Pseudocode
 
+```
+Swap function takes two integer values (NOT addresses)
+	Establish temporary variable. Assign the value of a to the 	temporary variable.
+	Assign value of b to value of a.
+	Assign value of a (stored in temp) to value of b.
+```
 
 ## Sort Function
 
