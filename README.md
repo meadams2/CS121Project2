@@ -62,6 +62,10 @@ Order to work in:
 
 3. sort
 
+## Progress Update
+
+All necessary functions are working as of 8:48pm 1/22/2025. Final production saved as finalProduction.
+
 ## printValue Function
 
 The basic objective of the printValue function is to print the values of the array in a single line. This function will be primarily used for debugging purposes. 
